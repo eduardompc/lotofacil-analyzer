@@ -1,0 +1,14 @@
+
+---
+
+### 4️⃣ Subir para o GitHub
+Agora, no seu PC:
+
+```bash
+cd C:\Users\Marcio\OneDrive\Documentos\Loterias\2025\Lotofacil\gerador
+git init
+git add .
+git commit -m "versão inicial do Lotofácil Analyzer"
+git branch -M main
+git remote add origin https://github.com/eduardompc/lotofacil-analyzer.git
+git push -u origin main
