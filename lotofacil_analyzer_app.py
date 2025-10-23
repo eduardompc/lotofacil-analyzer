@@ -273,6 +273,6 @@ st.markdown("Observações técnicas rápidas:")
 st.markdown("""
 - O app tenta extrair 15 números por linha do arquivo enviado. O formato mais simples: cada sorteio em uma linha com 15 colunas (n1..n15) ou com uma célula contendo '1,2,3,...,15'.
 - Se o seu arquivo tem cabeçalhos tipo 'bl1..bl15' ele funciona direto. Se tiver outro formato, mantenha as linhas com exatamente 15 números, ou ajuste antes de subir.
-- A geração de combinações usa amostragem aleatória respeitando o número de pares solicitado. Para gerar todas combinações possíveis seria combinatorialmente pesado; aqui usamos amostragem com limites para ser prático.
-- Quer que eu converta para um backend FastAPI + frontend React? Digo na lata: eu monto se você quiser.
+- A geração de combinações usa amostragem aleatória respeitando o número de pares solicitado.
+
 """)
