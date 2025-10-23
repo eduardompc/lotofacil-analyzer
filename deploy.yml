@@ -5,7 +5,7 @@
 Agora, no seu PC:
 
 ```bash
-cd C:\Users\Marcio\OneDrive\Documentos\Loterias\2025\Lotofacil\gerador
+cd caminho/da/pasta/lotofacil-analyzer
 git init
 git add .
 git commit -m "versão inicial do Lotofácil Analyzer"
